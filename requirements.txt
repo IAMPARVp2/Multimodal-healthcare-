@@ -1,0 +1,8 @@
+Django==2.1.7
+joblib==1.1.1
+numpy==1.15.4
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+Pillow==5.4.1
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1693930252784/work
+scikit-learn==0.20.0
+scipy==1.1.0

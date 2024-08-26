@@ -1,0 +1,10 @@
+prefix=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env
+exec_prefix=${prefix}
+includedir=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env/include
+libdir=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env/lib
+
+Name: libdeflate
+Description: Fast implementation of DEFLATE, zlib, and gzip
+Version: 1.10
+Libs: -L${libdir} -ldeflate
+Cflags: -I${includedir}

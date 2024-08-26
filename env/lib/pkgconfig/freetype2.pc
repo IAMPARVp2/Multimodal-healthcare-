@@ -1,0 +1,14 @@
+prefix=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env
+exec_prefix=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env
+libdir=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env/lib
+includedir=/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/home/alice/code/Heart-and-Kidney-disease-prediction-Django-master/env/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
